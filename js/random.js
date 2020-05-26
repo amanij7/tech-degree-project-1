@@ -24,7 +24,8 @@ function printQuote() {
    var quoteGenerated = getRandomQuote();
    var displayQuote = document.getElementById("quote-box");
 
-   var html = `<p class="quote">${quoteGenerated.quote}</p> <p class="source">${quoteGenerated.source}</p>`;
+   var html = `<p class="quote">${quoteGenerated.quote}</p> 
+               <p class="source">${quoteGenerated.source}`;
 
    if (quoteGenerated.citation) {
        html += `<span class="citation">${quoteGenerated.citation}</span>`;
@@ -33,6 +34,8 @@ function printQuote() {
    if (quoteGenerated.year) {
        html += `<span class="year">${quoteGenerated.year}</span>`
    }
+
+   html += `</p>`;
    
    
    displayQuote.innerHTML = html;

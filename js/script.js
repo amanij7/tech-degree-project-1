@@ -22,7 +22,8 @@ let quotes = [
     },
     {
         quote: 'Sometimes we have to go deep inside ourselves to solve our problems.',
-        source: ' Patrick Star from Spongebob Squarepants'
+        source: ' Patrick Star ',
+        citation: 'Spongebob Squarepants'
     },
     {
         quote: 'The flower that blooms in adversity is the rarest and beautiful of all.',
